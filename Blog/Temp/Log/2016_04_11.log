@@ -9,3 +9,9 @@
 [ 2016-04-11T19:49:46+08:00 ]ERROR: [4] syntax error, unexpected '(', expecting ',' or ';'/Library/WebServer/Documents/blog/Blog/Temp/Compile/Admin/Login/index_d61c6665.php 第 19 行.
 [ 2016-04-11T19:50:59+08:00 ]ERROR: [4] syntax error, unexpected '(', expecting ',' or ';'/Library/WebServer/Documents/blog/Blog/Temp/Compile/Admin/Login/index_d61c6665.php 第 19 行.
 [ 2016-04-11T20:01:15+08:00 ]ERROR: [4] syntax error, unexpected '(', expecting ',' or ';'/Library/WebServer/Documents/blog/Blog/Temp/Compile/Admin/Login/index_d61c6665.php 第 19 行.
+[ 2016-04-11T21:42:09+08:00 ]ERROR: [1] Class 'ip' not found/Library/WebServer/Documents/blog/Blog/Temp/Compile/Admin/System/index_570be06c.php 第 20 行.
+[ 2016-04-11T21:43:04+08:00 ]ERROR: [1] Class 'ip' not found/Library/WebServer/Documents/blog/Blog/Temp/Compile/Admin/System/index_570be06c.php 第 20 行.
+[ 2016-04-11T21:43:08+08:00 ]ERROR: [1] Class 'ip' not found/Library/WebServer/Documents/blog/Blog/Temp/Compile/Admin/System/index_570be06c.php 第 20 行.
+[ 2016-04-11T21:43:22+08:00 ]ERROR: [1] Class 'ip' not found/Library/WebServer/Documents/blog/Blog/Temp/Compile/Admin/System/index_570be06c.php 第 20 行.
+[ 2016-04-11T21:44:26+08:00 ]ERROR: [1] Class 'ip' not found/Library/WebServer/Documents/blog/Blog/Temp/Compile/Admin/System/index_570be06c.php 第 20 行.
+[ 2016-04-11T21:45:36+08:00 ]ERROR: [1] Call to undefined function mysql_get_server_info()/Library/WebServer/Documents/blog/Blog/Temp/Compile/Admin/System/index_570be06c.php 第 40 行.

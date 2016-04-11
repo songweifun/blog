@@ -1,0 +1,2 @@
+[ 2016-04-12T00:15:43+08:00 ]ERROR: [1] Call to undefined function p_get_client()/Library/WebServer/Documents/blog/Blog/Temp/Compile/Admin/System/index_570be06c.php 第 20 行.
+[ 2016-04-12T00:32:48+08:00 ]ERROR: [1] Call to undefined function mysql_get_server_info()/Library/WebServer/Documents/blog/Blog/Temp/Compile/Admin/System/index_570be06c.php 第 40 行.

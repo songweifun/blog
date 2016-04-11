@@ -10,10 +10,10 @@
 </head>
 <body>
 	<div id="divBox">
-		<form action="" method="POST" id="login">
-			<input type="text" id="userName" name="userName"/>
-			<input type="password" id="psd" name="psd"/>
-			<input type="" value="" id="verify" name="verify"/>
+		<form action="<?php echo U('Admin/Login/login');?>" method="POST" id="login">
+			<input type="text" id="userName" name="username"/>
+			<input type="password" id="psd" name="passwd"/>
+			<input type="" value="" id="verify" name="code"/>
 			<input type="submit" id="sub" value=""/>
 			<!-- 验证码 -->
 			<img src="<?php echo U('Admin/Login/showCode');?>" id="verify_img" />

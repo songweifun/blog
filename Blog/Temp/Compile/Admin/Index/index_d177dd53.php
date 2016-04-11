@@ -20,7 +20,7 @@
 			<p class="adm">
 				<span>管理员：</span>
 				<span class="adm_pic">&nbsp&nbsp&nbsp&nbsp</span>
-				<span class="adm_people">[houdunwang]</span>
+				<span class="adm_people">[<?php echo $hd['session']['username'];?>]</span>
 			</p>
 			<p class="now_time">
 				今天是：2013.7.13 
@@ -29,7 +29,7 @@
 			</p>
 			<p class="out">
 				<span class="out_bg">&nbsp&nbsp&nbsp&nbsp</span>&nbsp
-				<a href="" target="_self">退出</a>
+				<a href="<?php echo U('Admin/Login/quit');?>" target="_self">退出</a>
 			</p>
 		</div>
 	</div>
@@ -41,7 +41,7 @@
 				<div class="text">
 					<ul class="con">
 				        <li class="nav_u">
-				        	<a href="" class="pos">前台首页</a>				        	
+				        	<a href="<?php echo U('Index/Index/index');?>" class="pos">前台首页</a>
 				        </li> 
 				    </ul>
 				
@@ -53,13 +53,13 @@
 				<div class="text">
 					<ul class="con">
 				        <li class="nav_u">
-				        	<a href="" class="pos">添加栏目</a>				        	
+				        	<a href="<?php echo U('Admin/Category/addCategory');?>" class="pos">添加栏目</a>
 				        </li> 
 				    </ul>  
 
 				    <ul class="con">
 				        <li class="nav_u">
-				        	<a href="" class="pos">查看栏目</a>    	
+				        	<a href="<?php echo U('Admin/Category/checkCategory');?>" class="pos">查看栏目</a>
 				        </li> 
 				    </ul>   
 				</div>
@@ -70,17 +70,17 @@
 				<div class="text">
 					<ul class="con">
 				        <li class="nav_u">
-				        	<a href="" class="pos">添加博文</a>				        	
+				        	<a href="<?php echo U('Admin/Article/addArticle');?>" class="pos">添加博文</a>
 				        </li> 
 				    </ul>  
 				    <ul class="con">
 				        <li class="nav_u">
-				        	<a href="" class="pos">博文列表</a>				        	
+				        	<a href="<?php echo U('Admin/Article/checkArticle');?>" class="pos">博文列表</a>
 				        </li> 
 				    </ul>
 				    <ul class="con">
 				        <li class="nav_u">
-				        	<a href="" class="pos">回收站</a>				        	
+				        	<a href="<?php echo U('Admin/Article/recycleArticle');?>" class="pos">回收站</a>
 				        </li> 
 				    </ul>   
 				</div>
@@ -91,7 +91,7 @@
 				<div class="text">
 					<ul class="con">
 				        <li class="nav_u">
-				        	<a href="" class="pos">查看评论</a>				        	
+				        	<a href="<?php echo U('Admin/Comment/checkComment');?>" class="pos">查看评论</a>
 				        </li> 
 				    </ul>
 				
@@ -103,12 +103,12 @@
 				<div class="text">
 					<ul class="con">
 				        <li class="nav_u">
-				        	<a href="" class="pos">系统信息</a>				        	
+				        	<a href="<?php echo U('Admin/System/index');?>" class="pos">系统信息</a>
 				        </li> 
 				    </ul>
 				    <ul class="con">
 				        <li class="nav_u">
-				        	<a href="" class="pos">密码修改</a>				        	
+				        	<a href="<?php echo U('Admin/System/editPasswd');?>" class="pos">密码修改</a>
 				        </li> 
 				    </ul>
 				
@@ -117,7 +117,7 @@
 		</div>
 		<!-- 右侧 -->
 		<div id="right">
-			<iframe  frameboder="0" border="0" 	scrolling="yes" name="iframe" src=""></iframe>
+			<iframe  frameboder="0" border="0" 	scrolling="yes" name="iframe" src="<?php echo U('Admin/System/index');?>"></iframe>
 		</div>
 	<!-- 底部 -->
 	<div id="foot_box">
