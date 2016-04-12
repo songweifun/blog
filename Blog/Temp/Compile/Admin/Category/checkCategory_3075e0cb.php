@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="http://localhost/blog/Blog/Admin/View/Public/css/public.css" />
 	<script type="text/javascript" src="http://localhost/blog/Blog/Admin/View/Public/js/jquery-1.7.2.min.js"></script>
 	<script type="text/javascript" src="http://localhost/blog/Blog/Admin/View/Public/js/public.js"></script>
+	<script type="text/javascript" src="http://localhost/blog/Blog/Admin/View/Public/js/category.js"></script>
 </head>
 <body>
 	<table class="table">
@@ -19,19 +20,30 @@
 			<th>状态</th>
 			<th>操作</th>
 		</tr>
+		<?php foreach ($categorys as $k=>$v){?>
 		<tr>
-			<td>1</td>
-			<td><a href="">分类</a></td>
-			<td>开启</td>
+			<td><?php echo $v['cid'];?></td>
+			<td><a href=""><?php echo $v['cname'];?></a></td>
+			    <?php if($v['isoff']==0){ ?>
+			<td class="status">开启</td>
+				<?php }else{ ?>
+			<td class="status">关闭</td>
+			<?php } ?>
 			<td>
-				<a href="">[关闭]</a>
-				<a href="">[编辑]</a>
-				<a href="" class="del">[删除]</a>
+				    <?php if($v['isoff']==0){ ?>
+					<a href="javascript:void(0);" class="isoff" url="<?php echo U('Admin/Category/isoff');?>/cid/<?php echo $v['cid'];?>" status="<?php echo $v['isoff'];?>">[关闭]</a>
+			<?php }else{ ?>
+						<a href="javascript:void(0);" class="isoff" url="<?php echo U('Admin/Category/isoff');?>/cid/<?php echo $v['cid'];?>" status="<?php echo $v['isoff'];?>">[开启]</a>
+			<?php } ?>
+
+				<a href="<?php echo U('Admin/Category/edit');?>/cid/<?php echo $v['cid'];?>" class="isoff" url="">[编辑]</a>
+				<a href="<?php echo U('Admin/Category/delcategory');?>/cid/<?php echo $v['cid'];?>" class="del"   url="">[删除]</a>
 			</td>
 		</tr>
+		<?php }?>
 	</table>
 		<div class="page">
-			<a href="">1</a>
+			<a href=""><?php echo $page;?></a>
 		</div>
 </body>
 </html>

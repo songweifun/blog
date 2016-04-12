@@ -1,2 +1,39 @@
 [ 2016-04-12T00:15:43+08:00 ]ERROR: [1] Call to undefined function p_get_client()/Library/WebServer/Documents/blog/Blog/Temp/Compile/Admin/System/index_570be06c.php 第 20 行.
 [ 2016-04-12T00:32:48+08:00 ]ERROR: [1] Call to undefined function mysql_get_server_info()/Library/WebServer/Documents/blog/Blog/Temp/Compile/Admin/System/index_570be06c.php 第 40 行.
+[ 2016-04-12T11:02:53+08:00 ]ERROR: [4] syntax error, unexpected 'else' (T_ELSE)/Library/WebServer/Documents/blog/Blog/Admin/Controller/CategoryController.class.php 第 17 行.
+[ 2016-04-12T11:25:42+08:00 ]ERROR: [4] syntax error, unexpected '=>' (T_DOUBLE_ARROW)/Library/WebServer/Documents/blog/Blog/Temp/Compile/Admin/Category/checkCategory_3075e0cb.php 第 22 行.
+[ 2016-04-12T11:29:57+08:00 ]ERROR: [4] syntax error, unexpected '=>' (T_DOUBLE_ARROW)/Library/WebServer/Documents/blog/Blog/Temp/Compile/Admin/Category/checkCategory_3075e0cb.php 第 22 行.
+[ 2016-04-12T11:32:28+08:00 ]ERROR: [4] syntax error, unexpected '=>' (T_DOUBLE_ARROW)/Library/WebServer/Documents/blog/Blog/Temp/Compile/Admin/Category/checkCategory_3075e0cb.php 第 22 行.
+[ 2016-04-12T11:34:33+08:00 ]ERROR: [4] syntax error, unexpected '<'/Library/WebServer/Documents/blog/Blog/Temp/Compile/Admin/Category/checkCategory_3075e0cb.php 第 26 行.
+[ 2016-04-12T18:25:48+08:00 ]ERROR: [4] syntax error, unexpected 'exit' (T_EXIT)/Library/WebServer/Documents/blog/Blog/Admin/Controller/CategoryController.class.php 第 48 行.
+[ 2016-04-12T18:45:04+08:00 ]ERROR: [4] syntax error, unexpected '=', expecting ')'/Library/WebServer/Documents/blog/Blog/Admin/Controller/CategoryController.class.php 第 51 行.
+[ 2016-04-12T18:45:43+08:00 ]ERROR: [1] Call to a member function where() on string/Library/WebServer/Documents/blog/Blog/Admin/Controller/CategoryController.class.php 第 51 行.
+[ 2016-04-12T18:45:44+08:00 ]ERROR: [1] Call to a member function where() on string/Library/WebServer/Documents/blog/Blog/Admin/Controller/CategoryController.class.php 第 51 行.
+[ 2016-04-12T18:45:45+08:00 ]ERROR: [1] Call to a member function where() on string/Library/WebServer/Documents/blog/Blog/Admin/Controller/CategoryController.class.php 第 51 行.
+[ 2016-04-12T18:45:45+08:00 ]ERROR: [1] Call to a member function where() on string/Library/WebServer/Documents/blog/Blog/Admin/Controller/CategoryController.class.php 第 51 行.
+[ 2016-04-12T18:45:46+08:00 ]ERROR: [1] Call to a member function where() on string/Library/WebServer/Documents/blog/Blog/Admin/Controller/CategoryController.class.php 第 51 行.
+[ 2016-04-12T18:45:46+08:00 ]ERROR: [1] Call to a member function where() on string/Library/WebServer/Documents/blog/Blog/Admin/Controller/CategoryController.class.php 第 54 行.
+[ 2016-04-12T18:45:47+08:00 ]ERROR: [1] Call to a member function where() on string/Library/WebServer/Documents/blog/Blog/Admin/Controller/CategoryController.class.php 第 51 行.
+[ 2016-04-12T18:45:48+08:00 ]ERROR: [1] Call to a member function where() on string/Library/WebServer/Documents/blog/Blog/Admin/Controller/CategoryController.class.php 第 51 行.
+[ 2016-04-12T18:45:48+08:00 ]ERROR: [1] Call to a member function where() on string/Library/WebServer/Documents/blog/Blog/Admin/Controller/CategoryController.class.php 第 51 行.
+[ 2016-04-12T18:45:48+08:00 ]ERROR: [1] Call to a member function where() on string/Library/WebServer/Documents/blog/Blog/Admin/Controller/CategoryController.class.php 第 51 行.
+[ 2016-04-12T18:45:49+08:00 ]ERROR: [1] Call to a member function where() on string/Library/WebServer/Documents/blog/Blog/Admin/Controller/CategoryController.class.php 第 51 行.
+[ 2016-04-12T18:45:49+08:00 ]ERROR: [1] Call to a member function where() on string/Library/WebServer/Documents/blog/Blog/Admin/Controller/CategoryController.class.php 第 51 行.
+[ 2016-04-12T18:45:49+08:00 ]ERROR: [1] Call to a member function where() on string/Library/WebServer/Documents/blog/Blog/Admin/Controller/CategoryController.class.php 第 51 行.
+[ 2016-04-12T18:45:49+08:00 ]ERROR: [1] Call to a member function where() on string/Library/WebServer/Documents/blog/Blog/Admin/Controller/CategoryController.class.php 第 51 行.
+[ 2016-04-12T18:45:49+08:00 ]ERROR: [1] Call to a member function where() on string/Library/WebServer/Documents/blog/Blog/Admin/Controller/CategoryController.class.php 第 51 行.
+[ 2016-04-12T18:45:50+08:00 ]ERROR: [1] Call to a member function where() on string/Library/WebServer/Documents/blog/Blog/Admin/Controller/CategoryController.class.php 第 51 行.
+[ 2016-04-12T18:45:50+08:00 ]ERROR: [1] Call to a member function where() on string/Library/WebServer/Documents/blog/Blog/Admin/Controller/CategoryController.class.php 第 51 行.
+[ 2016-04-12T18:45:50+08:00 ]ERROR: [1] Call to a member function where() on string/Library/WebServer/Documents/blog/Blog/Admin/Controller/CategoryController.class.php 第 54 行.
+[ 2016-04-12T18:45:51+08:00 ]ERROR: [1] Call to a member function where() on string/Library/WebServer/Documents/blog/Blog/Admin/Controller/CategoryController.class.php 第 54 行.
+[ 2016-04-12T18:45:51+08:00 ]ERROR: [1] Call to a member function where() on string/Library/WebServer/Documents/blog/Blog/Admin/Controller/CategoryController.class.php 第 51 行.
+[ 2016-04-12T18:45:52+08:00 ]ERROR: [1] Call to a member function where() on string/Library/WebServer/Documents/blog/Blog/Admin/Controller/CategoryController.class.php 第 51 行.
+[ 2016-04-12T18:45:53+08:00 ]ERROR: [1] Call to a member function where() on string/Library/WebServer/Documents/blog/Blog/Admin/Controller/CategoryController.class.php 第 51 行.
+[ 2016-04-12T18:45:53+08:00 ]ERROR: [1] Call to a member function where() on string/Library/WebServer/Documents/blog/Blog/Admin/Controller/CategoryController.class.php 第 54 行.
+[ 2016-04-12T18:45:54+08:00 ]ERROR: [1] Call to a member function where() on string/Library/WebServer/Documents/blog/Blog/Admin/Controller/CategoryController.class.php 第 51 行.
+[ 2016-04-12T18:45:54+08:00 ]ERROR: [1] Call to a member function where() on string/Library/WebServer/Documents/blog/Blog/Admin/Controller/CategoryController.class.php 第 54 行.
+[ 2016-04-12T18:45:55+08:00 ]ERROR: [1] Call to a member function where() on string/Library/WebServer/Documents/blog/Blog/Admin/Controller/CategoryController.class.php 第 51 行.
+[ 2016-04-12T18:45:55+08:00 ]ERROR: [1] Call to a member function where() on string/Library/WebServer/Documents/blog/Blog/Admin/Controller/CategoryController.class.php 第 54 行.
+[ 2016-04-12T18:46:08+08:00 ]ERROR: [1] Call to a member function where() on string/Library/WebServer/Documents/blog/Blog/Admin/Controller/CategoryController.class.php 第 51 行.
+[ 2016-04-12T19:29:44+08:00 ]ERROR: [4] syntax error, unexpected '<'/Library/WebServer/Documents/blog/Blog/Temp/Compile/Admin/Category/edit_efe6d6d1.php 第 22 行.
+[ 2016-04-12T19:30:38+08:00 ]ERROR: [4] syntax error, unexpected '<'/Library/WebServer/Documents/blog/Blog/Temp/Compile/Admin/Category/edit_efe6d6d1.php 第 22 行.

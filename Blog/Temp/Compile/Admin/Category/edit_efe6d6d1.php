@@ -7,36 +7,41 @@
 	<title></title>
 </head>
 <body>
-	<form action="<?php echo U('Admin/Category/addCategory');?>" method="post">
+	<form action="<?php echo U('Admin/Category/addCategory');?>/cid/<?php echo $category['cid'];?>" method="post">
 		<table class="table">
 			<tr >
-				<td class="th" colspan="2">添加栏目</td>
+				<td class="th" colspan="2">编辑栏目</td>
 			</tr>
 			<tr>
 				<td>栏目名称</td>
-				<td><input type="text" name="cname" id="cname"/></td>
+				<td><input type="text" name="cname" id="cname" value="<?php echo $category['cname'];?>"/></td>
 			</tr>
 			<tr>
 				<td>开启状态</td>
 				<td>
+					    <?php if($category['isoff']==0){ ?>
 					<input type="radio" name="isoff" value="0" checked="checked"/>开启
 					<input type="radio" name="isoff" value="1" />关闭
+					<?php }else{ ?>
+					<input type="radio" name="isoff" value="0" />开启
+					<input type="radio" name="isoff" value="1" checked="checked"/>关闭
+					<?php } ?>
 				</td>
 
 			</tr>
 			<tr>
 				<td>关键字</td>
-				<td><input type="text" name="keywords" id="keywords"/></td>
+				<td><input type="text" name="keywords" id="keywords"value="<?php echo $category['keywords'];?>"/></td>
 			</tr>
 			<tr>
 				<td>描述</td>
 				<td>
-					<textarea name="description" id="description" class="textarea"></textarea>
+					<textarea name="description" id="description" class="textarea"><?php echo $category['description'];?></textarea>
 				</td>
 			</tr>
 			<tr>
 				<td colspan="2">
-					<input type="submit" value="添加" class="input_button"/>
+					<input type="submit" value="修改" class="input_button"/>
 					<input type="reset" class="input_button" id="resetCategory"/>
 				</td>
 			</tr>

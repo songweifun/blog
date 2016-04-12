@@ -6,6 +6,7 @@
 	<link rel="stylesheet" href="__PUBLIC__/css/public.css" />
 	<script type="text/javascript" src="__PUBLIC__/js/jquery-1.7.2.min.js"></script>
 	<script type="text/javascript" src="__PUBLIC__/js/public.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/category.js"></script>
 </head>
 <body>
 	<table class="table">
@@ -18,19 +19,30 @@
 			<th>状态</th>
 			<th>操作</th>
 		</tr>
+		<foreach from="$categorys" value="$v" key="$k">
 		<tr>
-			<td>1</td>
-			<td><a href="">分类</a></td>
-			<td>开启</td>
+			<td>{$v.cid}</td>
+			<td><a href="">{$v.cname}</a></td>
+			<if value="$v['isoff'] eq 0">
+			<td class="status">开启</td>
+				<else/>
+			<td class="status">关闭</td>
+			</if>
 			<td>
-				<a href="">[关闭]</a>
-				<a href="">[编辑]</a>
-				<a href="" class="del">[删除]</a>
+				<if value="$v['isoff'] eq 0">
+					<a href="javascript:void(0);" class="isoff" url="{|U:'Admin/Category/isoff'}/cid/{$v.cid}" status="{$v['isoff']}">[关闭]</a>
+			<else/>
+						<a href="javascript:void(0);" class="isoff" url="{|U:'Admin/Category/isoff'}/cid/{$v.cid}" status="{$v['isoff']}">[开启]</a>
+			</if>
+
+				<a href="{|U:'Admin/Category/edit'}/cid/{$v.cid}" class="isoff" url="">[编辑]</a>
+				<a href="{|U:'Admin/Category/delcategory'}/cid/{$v.cid}" class="del"   url="">[删除]</a>
 			</td>
 		</tr>
+		</foreach>
 	</table>
 		<div class="page">
-			<a href="">1</a>
+			<a href="">{$page}</a>
 		</div>
 </body>
 </html>
