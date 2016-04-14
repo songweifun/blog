@@ -1,0 +1,1 @@
+[ 2016-04-15T00:07:21+08:00 ]ERROR: [4] syntax error, unexpected ''_on'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'/Library/WebServer/Documents/blog/Blog/Admin/Model/ArticleModel.class.php 第 12 行.

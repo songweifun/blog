@@ -7,7 +7,7 @@
 	<title></title>
 </head>
 <body>
-	<form action="" method="post">
+	<form action="<?php echo U('Admin/Article/addArticle');?>" method="post" enctype="multipart/form-data">
 		<table class="table">
 			<tr >
 				<td class="th" colspan="2">添加博文</td>
@@ -15,19 +15,21 @@
 			<tr>
 				<td>博客标题</td>
 				<td>
-					<input type="text" name="" class="title"/>
+					<input type="text" name="title" class="title"/>
 				</td>
 			</tr>
 			<tr>
 				<td>缩略图</td>
-				<td><input type="file" name=""/></td>
+				<td><input type="file" name="thumb"/></td>
 			</tr>
 			<tr>
 				<td>栏目</td>
 				<td>
-					<select name=''>
-						<option value="">====选择栏目====</option>
-						<option value=""></option>
+					<select name='cid'>
+						<option value="0">====选择栏目====</option>
+						<?php foreach ($category as $k=>$v){?>
+						<option value="<?php echo $v['cid'];?>"><?php echo $v['cname'];?></option>
+						<?php }?>
 					</select>
 				</td>
 
@@ -35,13 +37,14 @@
 			<tr>
 				<td>内容</td>
 				<td>
-					<textarea id="editor_id" name="" style="width:700px;height:300px;"></textarea>
+					<textarea id="editor_id" name="content" style="width:700px;height:300px;"></textarea>
+
 				</td>
 			</tr>
 			<tr>
 				<td>点击次数</td>
 				<td>
-					<input type="" name='' value=""/>
+					<input type="" name='click' value="100"/>
 				</td>
 			</tr>
 			<tr>

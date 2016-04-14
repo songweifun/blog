@@ -85,11 +85,23 @@ class CategoryController extends CommonController{
     public function delcategory()
     {
         $cid=Q('get.cid',null,array('intval'));
-        if(M('category')->where(array('cid'=>$cid))->del()){
+        /*if(M('category')->where(array('cid'=>$cid))->del()){
             $this->success('删除栏目成功');
         }else{
             $this->error('删除栏目失败');
+        }*/
+        M('category')->where(array('cid'=>$cid))->del();//删除栏目
+        $aid=M('article')->field('aid')->where(array('cid'=>$cid))->select();
+        $arr=array();
+        if($aid){
+            foreach($aid as $v){
+                $arr[]=$v['aid'];
+            }
+            M('comment')->in(array('aid'=>$arr))->del();//删除评论
+            M('article')->where(array('cid'=>$cid))->del();//删除文章
         }
+
+        $this->success('删除栏目成功');
     }
 
     /**

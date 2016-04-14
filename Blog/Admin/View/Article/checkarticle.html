@@ -20,23 +20,21 @@
 			<td class="tdLtitle4">创作时间</td>
 			<td class="tdLtitle7">操作</td>
 		</tr>
+		<foreach from="$articles" key="$k" value="$v">
 		<tr>
-			<td >1</td>
-			<td>www.doudunwang</td>
-			<td><a href="">PHP</a></td>
-			<td>200</td>
-			<td>2014-7-8</td>
+			<td >{$v.aid}</td>
+			<td>{$v.title}</td>
+			<td><a href="">{$v.cname}</a></td>
+			<td>{$v.click}</td>
+			<td>{$v.time|date:'Y-m-d',@@}</td>
 			<td>
 				<a href="">[置顶]</a>
 				<a href="">[编辑]</a>
 				<a href="">[删除]</a>
 			</td>
 		</tr>
+		</foreach>
 	</table>
-	<div class="page">
-		<a href="">1</a>
-		<a href="">2</a>
-		<a href="">3</a>
-	</div>
+	{$page}
 </body>
 </html>

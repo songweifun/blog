@@ -21,23 +21,21 @@
 			<td class="tdLtitle4">创作时间</td>
 			<td class="tdLtitle7">操作</td>
 		</tr>
+		<?php foreach ($articles as $k=>$v){?>
 		<tr>
-			<td >1</td>
-			<td>www.doudunwang</td>
-			<td><a href="">PHP</a></td>
-			<td>200</td>
-			<td>2014-7-8</td>
+			<td ><?php echo $v['aid'];?></td>
+			<td><?php echo $v['title'];?></td>
+			<td><a href=""><?php echo $v['cname'];?></a></td>
+			<td><?php echo $v['click'];?></td>
+			<td><?php echo date('Y-m-d',$v['time']);?></td>
 			<td>
 				<a href="">[置顶]</a>
 				<a href="">[编辑]</a>
 				<a href="">[删除]</a>
 			</td>
 		</tr>
+		<?php }?>
 	</table>
-	<div class="page">
-		<a href="">1</a>
-		<a href="">2</a>
-		<a href="">3</a>
-	</div>
+	<?php echo $page;?>
 </body>
 </html>
