@@ -29,9 +29,13 @@
 			<td><?php echo $v['click'];?></td>
 			<td><?php echo date('Y-m-d',$v['time']);?></td>
 			<td>
-				<a href="">[置顶]</a>
-				<a href="">[编辑]</a>
-				<a href="">[删除]</a>
+				    <?php if($v['istop']==0){ ?>
+				<a href="<?php echo U('Admin/Article/istop');?>/aid/<?php echo $v['aid'];?>/status/0">[置顶]</a>
+				<?php }else{ ?>
+				<a href="<?php echo U('Admin/Article/istop');?>/aid/<?php echo $v['aid'];?>/status/1">[取消置顶]</a>
+				<?php } ?>
+				<a href="<?php echo U('Admin/Article/editArticle');?>/aid/<?php echo $v['aid'];?>">[编辑]</a>
+				<a href="<?php echo U('Admin/Article/isdel');?>/aid/<?php echo $v['aid'];?>/status/<?php echo $v['isdel'];?>">[删除]</a>
 			</td>
 		</tr>
 		<?php }?>

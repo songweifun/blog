@@ -28,9 +28,13 @@
 			<td>{$v.click}</td>
 			<td>{$v.time|date:'Y-m-d',@@}</td>
 			<td>
-				<a href="">[置顶]</a>
-				<a href="">[编辑]</a>
-				<a href="">[删除]</a>
+				<if value="$v['istop'] eq 0">
+				<a href="{|U:'Admin/Article/istop'}/aid/{$v.aid}/status/0">[置顶]</a>
+				<else/>
+				<a href="{|U:'Admin/Article/istop'}/aid/{$v.aid}/status/1">[取消置顶]</a>
+				</if>
+				<a href="{|U:'Admin/Article/editArticle'}/aid/{$v.aid}">[编辑]</a>
+				<a href="{|U:'Admin/Article/isdel'}/aid/{$v.aid}/status/{$v.isdel}">[删除]</a>
 			</td>
 		</tr>
 		</foreach>

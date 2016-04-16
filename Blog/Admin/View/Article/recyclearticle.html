@@ -20,17 +20,19 @@
 			<td class="tdLtitle4">创作时间</td>
 			<td class="tdLtitle6">操作</td>
 		</tr>
+		<foreach from="$articles" key="$k" value="$v">
 		<tr>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>{$v.aid}</td>
+			<td>{$v.title}</td>
+			<td>{$v.cname}</td>
+			<td>{$v.click}</td>
+			<td>{$v.time|date:'Y-m-d',@@}</td>
 			<td>
-				<a href="">[恢复]</a>
-				<a href="" class="del">[彻底删除]</a>
+				<a href="{|U:'Admin/Article/isdel'}/aid/{$v.aid}/status/{$v.isdel}">[恢复]</a>
+				<a href="{|U:'Admin/Article/delAriticle'}/aid/{$v.aid}" class="del">[彻底删除]</a>
 			</td>
 		</tr>
+		</foreach>
 	</table>
 </body>
 </html>

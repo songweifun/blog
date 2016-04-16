@@ -21,17 +21,19 @@
 			<td class="tdLtitle4">创作时间</td>
 			<td class="tdLtitle6">操作</td>
 		</tr>
+		<?php foreach ($articles as $k=>$v){?>
 		<tr>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td><?php echo $v['aid'];?></td>
+			<td><?php echo $v['title'];?></td>
+			<td><?php echo $v['cname'];?></td>
+			<td><?php echo $v['click'];?></td>
+			<td><?php echo date('Y-m-d',$v['time']);?></td>
 			<td>
-				<a href="">[恢复]</a>
-				<a href="" class="del">[彻底删除]</a>
+				<a href="<?php echo U('Admin/Article/isdel');?>/aid/<?php echo $v['aid'];?>/status/<?php echo $v['isdel'];?>">[恢复]</a>
+				<a href="<?php echo U('Admin/Article/delAriticle');?>/aid/<?php echo $v['aid'];?>" class="del">[彻底删除]</a>
 			</td>
 		</tr>
+		<?php }?>
 	</table>
 </body>
 </html>

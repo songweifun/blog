@@ -17,18 +17,18 @@ class ArticleModel extends viewModel{
      * 获得文章总数
      * @return mixed
      */
-    public function getTotal()
+    public function getTotal($where)
     {
-        return $this->count();
+        return $this->where($where)->count();
     }
 
     /**
      * 获得文章数据
      * @return mixed
      */
-    public function getCategorys($limit)
+    public function getCategorys($limit,$where)
     {
-        return $this->limit($limit)->select();
+        return $this->where($where)->limit($limit)->select();
     }
 }
 
