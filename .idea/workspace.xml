@@ -2,38 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f15700ed-2f62-4698-ae0f-c86dd9f904a3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Blog/Admin/View/Article/editarticle.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Upload/11801460642776.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Upload/12561460640166.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Upload/1931460640747.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Upload/22681460639910.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Upload/2351460640817.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Upload/25911460640418.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Upload/27751460641222.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Upload/28391460640148.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Upload/37041460639743.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Upload/40721460640958.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Upload/41811460640518.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Upload/42301460640660.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Upload/4651460642556.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Upload/49741460641768.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Upload/5401460639930.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Upload/57211460641722.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Upload/62351460640448.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Upload/65781460640719.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Upload/67441460640606.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Upload/69871460640209.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Upload/74991460642905.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Upload/77451460637926.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Upload/80961460639812.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Upload/8201460642530.png" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Blog/Index/View/Public/images/5-120915124415.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Blog/Index/View/Public/images/5-13050G33952.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Blog/Index/View/Public/images/arrow_next.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Blog/Index/View/Public/images/bar.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Blog/Index/View/Public/images/bar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Blog/Index/View/Public/images/comments.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Blog/Index/View/Public/images/houdunwang.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Blog/Index/View/Public/images/icon-post-formats.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Blog/Index/View/Public/images/listen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Blog/Index/View/Public/images/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Blog/Index/View/Public/images/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Blog/Index/View/Public/images/maximize.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Blog/Index/View/Public/images/sp-deal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Blog/Index/View/Public/images/zs1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Blog/Index/View/Public/images/zs2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Blog/Index/View/Public/images/zs3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Blog/Index/View/Public/images/zs4.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Blog/Index/Controller/ArticleController.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Blog/Index/Model/ArticleModel.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Blog/Index/View/Article/category.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Blog/Index/View/Article/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Blog/Index/View/Public/css/about.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Blog/Index/View/Public/css/article.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Blog/Index/View/Public/css/article_list.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Blog/Index/View/Public/css/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Blog/Index/View/Public/css/public.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Blog/Index/View/Public/js/iepng.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Blog/Index/View/Public/js/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Blog/Index/View/Public/js/jquery-1.7.2.min.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Blog/Temp/Compile/Admin/System/editPasswd_e559bee1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Blog/Temp/~Boot.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/Admin/Controller/ArticleController.class.php" afterPath="$PROJECT_DIR$/Blog/Admin/Controller/ArticleController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/Admin/Controller/CommentController.class.php" afterPath="$PROJECT_DIR$/Blog/Admin/Controller/CommentController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/Admin/Controller/SystemController.class.php" afterPath="$PROJECT_DIR$/Blog/Admin/Controller/SystemController.class.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/Admin/Model/ArticleModel.class.php" afterPath="$PROJECT_DIR$/Blog/Admin/Model/ArticleModel.class.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/Admin/View/Article/checkarticle.html" afterPath="$PROJECT_DIR$/Blog/Admin/View/Article/checkarticle.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/Admin/View/Article/recyclearticle.html" afterPath="$PROJECT_DIR$/Blog/Admin/View/Article/recyclearticle.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/Admin/View/Comment/checkcomment.html" afterPath="$PROJECT_DIR$/Blog/Admin/View/Comment/checkcomment.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/Admin/View/System/editpasswd.html" afterPath="$PROJECT_DIR$/Blog/Admin/View/System/editpasswd.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/Index/Controller/IndexController.class.php" afterPath="$PROJECT_DIR$/Blog/Index/Controller/IndexController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/Index/View/Index/index.html" afterPath="$PROJECT_DIR$/Blog/Index/View/Index/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/Temp/Compile/Admin/Article/checkArticle_a9f7c034.php" afterPath="$PROJECT_DIR$/Blog/Temp/Compile/Admin/Article/checkArticle_a9f7c034.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/Temp/Compile/Admin/Article/recycleArticle_9bde7002.php" afterPath="$PROJECT_DIR$/Blog/Temp/Compile/Admin/Article/recycleArticle_9bde7002.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/Temp/Compile/Admin/Comment/checkComment_fb9c61dd.php" afterPath="$PROJECT_DIR$/Blog/Temp/Compile/Admin/Comment/checkComment_fb9c61dd.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/Temp/Compile/Index/Index/index_0b4de611.php" afterPath="$PROJECT_DIR$/Blog/Temp/Compile/Index/Index/index_0b4de611.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/Temp/Log/2016_04_16.log" afterPath="$PROJECT_DIR$/Blog/Temp/Log/2016_04_16.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <ignored path="blog.iws" />
@@ -55,68 +68,7 @@
     <favorites_list name="blog" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="addarticle.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Blog/Admin/View/Article/addarticle.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-28.967741">
-              <caret line="45" column="44" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="recyclearticle.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Blog/Admin/View/Article/recyclearticle.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.672414">
-              <caret line="31" column="55" selection-start-line="31" selection-start-column="55" selection-end-line="31" selection-end-column="55" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="editarticle.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Blog/Admin/View/Article/editarticle.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="4.9310346">
-              <caret line="26" column="51" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArticleModel.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Blog/Admin/Model/ArticleModel.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.2580647">
-              <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="checkarticle.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Blog/Admin/View/Article/checkarticle.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.645162">
-              <caret line="36" column="81" selection-start-line="36" selection-start-column="81" selection-end-line="36" selection-end-column="81" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArticleController.class.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Blog/Admin/Controller/ArticleController.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4941003">
-              <caret line="167" column="33" selection-start-line="167" selection-start-column="33" selection-end-line="167" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -125,10 +77,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/hdphp/hdphp/hdphp/Lib/Function/Functions.php" />
-        <option value="$PROJECT_DIR$/Blog/Admin/View/Comment/checkcomment.html" />
-        <option value="$PROJECT_DIR$/Blog/Admin/Controller/CommentController.class.php" />
-        <option value="$PROJECT_DIR$/Blog/Admin/Controller/SystemController.class.php" />
-        <option value="$PROJECT_DIR$/Blog/Admin/View/System/editpasswd.html" />
         <option value="$PROJECT_DIR$/Blog/Admin/View/System/copy.html" />
         <option value="$PROJECT_DIR$/Blog/Admin/View/Login/index.html" />
         <option value="$PROJECT_DIR$/Blog/Admin/Controller/CommonController.class.php" />
@@ -144,12 +92,23 @@
         <option value="$PROJECT_DIR$/Blog/Admin/Controller/CategoryController.class.php" />
         <option value="$PROJECT_DIR$/Blog/Common/Config/config.php" />
         <option value="$PROJECT_DIR$/Blog/Admin/View/Article/addarticle.html" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/Blog/Admin/View/Article/editarticle.html" />
-        <option value="$PROJECT_DIR$/Blog/Admin/Model/ArticleModel.class.php" />
-        <option value="$PROJECT_DIR$/Blog/Admin/View/Article/checkarticle.html" />
         <option value="$PROJECT_DIR$/Blog/Admin/View/Article/recyclearticle.html" />
+        <option value="$PROJECT_DIR$/Blog/Index/Controller/IndexController.class.php" />
+        <option value="$PROJECT_DIR$/Blog/Index/View/Index/index.html" />
+        <option value="$PROJECT_DIR$/Blog/Index/Model/ArticleModel.class.php" />
+        <option value="$PROJECT_DIR$/Blog/Temp/Compile/Index/Article/index_ca4f60d6.php" />
+        <option value="$PROJECT_DIR$/Blog/Index/View/Article/index.html" />
+        <option value="$PROJECT_DIR$/Blog/Index/Controller/ArticleController.class.php" />
+        <option value="$PROJECT_DIR$/Blog/Index/View/Article/category.html" />
         <option value="$PROJECT_DIR$/Blog/Admin/Controller/ArticleController.class.php" />
+        <option value="$PROJECT_DIR$/Blog/Admin/View/Article/checkarticle.html" />
+        <option value="$PROJECT_DIR$/Blog/Admin/Model/ArticleModel.class.php" />
+        <option value="$PROJECT_DIR$/Blog/Admin/View/Comment/checkcomment.html" />
+        <option value="$PROJECT_DIR$/Blog/Admin/Controller/CommentController.class.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/Blog/Admin/View/System/editpasswd.html" />
+        <option value="$PROJECT_DIR$/Blog/Admin/Controller/SystemController.class.php" />
       </list>
     </option>
   </component>
@@ -252,77 +211,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="View" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="View" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Article" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controller" />
+              <option name="myItemId" value="Index" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -339,15 +228,15 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Blog/Admin/View/Article" />
-      <recent name="$PROJECT_DIR$/Blog/Admin/View/Category" />
-      <recent name="$PROJECT_DIR$/Blog/Admin/View/System" />
-      <recent name="$PROJECT_DIR$/Blog/Admin/View/Comment" />
-      <recent name="$PROJECT_DIR$/Blog/Admin/View/Login" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Blog/Admin/View/System" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Blog/Index/View/Article" />
+      <recent name="$PROJECT_DIR$/Blog/Index/Model" />
+      <recent name="$PROJECT_DIR$/Blog/Index/View/Public" />
+      <recent name="$PROJECT_DIR$/Blog/Index/View/Index" />
+      <recent name="$PROJECT_DIR$/Blog/Admin/View/Article" />
     </key>
   </component>
   <component name="RunManager">
@@ -394,7 +283,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1600" height="806" extended-state="1" />
+    <frame x="0" y="23" width="1600" height="806" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -432,54 +321,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Blog/Admin/View/Article/editarticle.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/Admin/Model/ArticleModel.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/Admin/View/Article/checkarticle.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="52" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/Admin/View/Article/addarticle.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="45" column="44" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/Admin/Controller/ArticleController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="52" selection-start-line="38" selection-start-column="52" selection-end-line="38" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Blog/Admin/Model/ArticleModel.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -594,45 +435,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/Index/View/Index/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.85465115">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/Admin/View/Comment/checkcomment.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19186047">
-          <caret line="6" column="51" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/Admin/Controller/CommentController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25581396">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/Admin/View/System/editpasswd.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12790698">
-          <caret line="4" column="48" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Blog/Admin/View/Login/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.41569766">
           <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/Admin/Controller/CommonController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35174417">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -647,20 +453,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6724891">
           <caret line="21" column="63" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/Admin/View/System/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6477438">
-          <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/Admin/Controller/SystemController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28820962">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -735,41 +527,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/Admin/View/Article/addarticle.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-28.967741">
-          <caret line="45" column="44" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.064896755">
-          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/Admin/Model/ArticleModel.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.2580647">
-          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/Admin/View/Article/checkarticle.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.645162">
-          <caret line="36" column="81" selection-start-line="36" selection-start-column="81" selection-end-line="36" selection-end-column="81" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Blog/Admin/View/Article/editarticle.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="4.9310346">
+        <state vertical-scroll-proportion="-0.4393241">
           <caret line="26" column="51" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
           <folding />
         </state>
@@ -777,17 +537,169 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Blog/Admin/View/Article/recyclearticle.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.672414">
+        <state vertical-scroll-proportion="0.59447">
           <caret line="31" column="55" selection-start-line="31" selection-start-column="55" selection-end-line="31" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/Admin/View/Article/addarticle.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.3244838">
+          <caret line="45" column="44" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/Index/View/Public/css/about.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/Index/Controller/IndexController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48672566">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/Temp/Compile/Index/Article/index_ca4f60d6.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.2713864">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <marker date="1460815764000" expanded="true" signature="10556:10696" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/Index/Model/ArticleModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.1681416">
+          <caret line="36" column="26" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/Index/View/Article/category.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="5.3864307">
+          <caret line="166" column="51" selection-start-line="166" selection-start-column="51" selection-end-line="166" selection-end-column="51" />
+          <folding>
+            <marker date="1460815909000" expanded="true" signature="4150:4290" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/Index/View/Index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5683564">
+          <caret line="61" column="63" selection-start-line="61" selection-start-column="63" selection-end-line="61" selection-end-column="63" />
+          <folding>
+            <marker date="1460807082000" expanded="true" signature="4092:4221" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/Index/Controller/ArticleController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.129032">
+          <caret line="13" column="55" selection-start-line="12" selection-start-column="8" selection-end-line="15" selection-end-column="106" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/Admin/Controller/CommonController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35693216">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/Admin/Model/ArticleModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.67551625">
+          <caret line="30" column="69" selection-start-line="30" selection-start-column="69" selection-end-line="30" selection-end-column="69" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Blog/Admin/Controller/ArticleController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4941003">
-          <caret line="167" column="33" selection-start-line="167" selection-start-column="33" selection-end-line="167" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.4660767">
+          <caret line="51" column="29" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/Admin/View/Article/checkarticle.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47772658">
+          <caret line="28" column="49" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/Admin/View/System/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38348082">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/Admin/Controller/SystemController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5132743">
+          <caret line="21" column="58" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/Admin/View/Comment/checkcomment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49308756">
+          <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/Admin/Controller/CommentController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5781711">
+          <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.064896755">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/Admin/View/System/editpasswd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6958525">
+          <caret line="41" column="27" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/Index/View/Article/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22123894">
+          <caret line="110" column="48" selection-start-line="110" selection-start-column="16" selection-end-line="110" selection-end-column="55" />
+          <folding>
+            <marker date="1460815759000" expanded="true" signature="5666:5806" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>

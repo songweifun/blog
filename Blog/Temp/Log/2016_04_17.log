@@ -1,0 +1,4 @@
+[ 2016-04-17T00:00:05+08:00 ]ERROR: [4] syntax error, unexpected 'session' (T_STRING)/Library/WebServer/Documents/blog/Blog/Temp/Compile/Admin/System/editPasswd_e559bee1.php 第 17 行.
+[ 2016-04-17T00:01:16+08:00 ]ERROR: [4] syntax error, unexpected 'session' (T_STRING)/Library/WebServer/Documents/blog/Blog/Temp/Compile/Admin/System/editPasswd_e559bee1.php 第 17 行.
+[ 2016-04-17T00:03:01+08:00 ]ERROR: [4] syntax error, unexpected 'session' (T_STRING)/Library/WebServer/Documents/blog/Blog/Temp/Compile/Admin/System/editPasswd_e559bee1.php 第 17 行.
+[ 2016-04-17T00:03:28+08:00 ]ERROR: [4] syntax error, unexpected ''Admin/System/editPasswd);?>" ' (T_ENCAPSED_AND_WHITESPACE)/Library/WebServer/Documents/blog/Blog/Temp/Compile/Admin/System/editPasswd_e559bee1.php 第 10 行.

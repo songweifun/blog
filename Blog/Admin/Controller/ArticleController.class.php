@@ -44,8 +44,13 @@ class ArticleController extends CommonController{
         $page=new page($total);
         $articles=M()->join('__category__ c JOIN __article__ a ON c.cid=a.cid')->limit($page->limit())->select();
 */
+        $cid=Q('get.cid',null,array('intval'));
         $db=K('Article');
+
         $where=array('isdel'=>0);
+        if($cid){
+            $where['category.cid']=$cid;
+        }
         $total=$db->getTotal($where);
         $page=new page($total);
 
@@ -55,7 +60,7 @@ class ArticleController extends CommonController{
         //$articles=M('article')->select();
 
         $this->assign('articles',$articles);
-        return $this->display();
+        $this->display();
     }
 
     /**

@@ -19,19 +19,20 @@
 			<td>评论者</td>
 			<td>操作</td>
 		</tr>
+		<list from="$comments" name="$n">
 		<tr>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>{$n.comid}</td>
+			<td>{$n.content}</td>
+			<td>{$n.time|date:'Y-m-d',@@}</td>
+			<td>{$n.nickname}</td>
 			<td>
-				<a href="" class="del">删除</a>
+				<a href="{|U:'Admin/Comment/delComment'}/comid/{$n.comid}" class="del">删除</a>
 			</td>
 		</tr>
+		</list>
 	</table>
 	<div class="page">
-		<a href="">1</a>
+		{$page}
 	</div>
 
 </body>

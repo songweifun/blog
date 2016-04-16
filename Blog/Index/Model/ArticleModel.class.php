@@ -28,7 +28,14 @@ class ArticleModel extends viewModel{
      */
     public function getCategorys($limit,$where)
     {
-        return $this->where($where)->limit($limit)->order('istop desc')->select();
+        return $this->where($where)->limit($limit)->select();
+    }
+
+    /**
+     * 获取单个文章信息
+     */
+    public function getOneArticle($aid){
+        return $this->where(array('aid'=>$aid))->find();
     }
 }
 

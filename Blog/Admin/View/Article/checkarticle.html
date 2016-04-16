@@ -23,8 +23,12 @@
 		<foreach from="$articles" key="$k" value="$v">
 		<tr>
 			<td >{$v.aid}</td>
+			<if value="$v['istop'] eq 0">
 			<td>{$v.title}</td>
-			<td><a href="">{$v.cname}</a></td>
+			<else/>
+			<td>{$v.title}<span style="color:red;">[置顶]</span></td>
+			</if>
+			<td><a href="{|U:'Admin/Article/checkArticle'}/cid/{$v.cid}">{$v.cname}</a></td>
 			<td>{$v.click}</td>
 			<td>{$v.time|date:'Y-m-d',@@}</td>
 			<td>

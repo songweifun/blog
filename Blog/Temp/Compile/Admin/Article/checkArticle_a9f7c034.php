@@ -24,8 +24,12 @@
 		<?php foreach ($articles as $k=>$v){?>
 		<tr>
 			<td ><?php echo $v['aid'];?></td>
+			    <?php if($v['istop']==0){ ?>
 			<td><?php echo $v['title'];?></td>
-			<td><a href=""><?php echo $v['cname'];?></a></td>
+			<?php }else{ ?>
+			<td><?php echo $v['title'];?><span style="color:red;">[置顶]</span></td>
+			<?php } ?>
+			<td><a href="<?php echo U('Admin/Article/checkArticle');?>/cid/<?php echo $v['cid'];?>"><?php echo $v['cname'];?></a></td>
 			<td><?php echo $v['click'];?></td>
 			<td><?php echo date('Y-m-d',$v['time']);?></td>
 			<td>
