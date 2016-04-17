@@ -2,3 +2,8 @@
 [ 2016-04-17T00:01:16+08:00 ]ERROR: [4] syntax error, unexpected 'session' (T_STRING)/Library/WebServer/Documents/blog/Blog/Temp/Compile/Admin/System/editPasswd_e559bee1.php 第 17 行.
 [ 2016-04-17T00:03:01+08:00 ]ERROR: [4] syntax error, unexpected 'session' (T_STRING)/Library/WebServer/Documents/blog/Blog/Temp/Compile/Admin/System/editPasswd_e559bee1.php 第 17 行.
 [ 2016-04-17T00:03:28+08:00 ]ERROR: [4] syntax error, unexpected ''Admin/System/editPasswd);?>" ' (T_ENCAPSED_AND_WHITESPACE)/Library/WebServer/Documents/blog/Blog/Temp/Compile/Admin/System/editPasswd_e559bee1.php 第 10 行.
+[ 2016-04-17T10:59:16+08:00 ]ERROR: [1] Class name must be a valid object or a string/Library/WebServer/Documents/blog/Blog/Temp/Compile/Index/Index/index_635be093.php 第 75 行.
+[ 2016-04-17T10:59:58+08:00 ]ERROR: [1] Class name must be a valid object or a string/Library/WebServer/Documents/blog/Blog/Temp/Compile/Index/Index/index_635be093.php 第 75 行.
+[ 2016-04-17T11:00:00+08:00 ]ERROR: [1] Class name must be a valid object or a string/Library/WebServer/Documents/blog/Blog/Temp/Compile/Index/Index/index_635be093.php 第 75 行.
+[ 2016-04-17T11:00:34+08:00 ]ERROR: [1] Class name must be a valid object or a string/Library/WebServer/Documents/blog/Blog/Temp/Compile/Index/Index/index_635be093.php 第 75 行.
+[ 2016-04-17T13:17:10+08:00 ]ERROR: [4] syntax error, unexpected ')', expecting variable (T_VARIABLE) or '$'/Library/WebServer/Documents/blog/Blog/Temp/Compile/Index/Index/article_list_f9e1d95e.php 第 54 行.

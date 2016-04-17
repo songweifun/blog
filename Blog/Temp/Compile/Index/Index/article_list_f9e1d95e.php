@@ -3,16 +3,15 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
-	<title>后盾网博客</title>
-	<meta name="keywords" content="后盾网顶尖PHP培训，PHP培训" />
-	<meta name="description" content="后盾网PHP培训航母" />
+	<title>后盾网博客文章列表</title>
+	<link rel="stylesheet" href="http://localhost/blog/Blog/Index/View/Public/css/article_list.css" />
 	<script type="text/javascript" src="http://localhost/blog/Blog/Index/View/Public/js/jquery-1.7.2.min.js"></script>
 	<script type="text/javascript" src="http://localhost/blog/Blog/Index/View/Public/js/index.js"></script>
 	<link rel="stylesheet" href="http://localhost/blog/Blog/Index/View/Public/css/index.css" />
 </head>
 <body>
-<!-- 头部 -->
-<?php if(!defined('HDPHP_PATH'))exit;C('SHOW_NOTICE',FALSE);?>
+	<!-- 头部 -->
+	<?php if(!defined('HDPHP_PATH'))exit;C('SHOW_NOTICE',FALSE);?>
 <div id="wrapper"></div>
 <div id="top">
     <!-- 头部左侧 -->
@@ -30,49 +29,67 @@
         <p id="bar"></p>
     </div>
 </div>
-<!-- 头部结束 -->
-<!-- 发布内容区域 -->
-<div id="arc">
-	<!-- 左侧区域 -->
-	<div class="arc_left_box">
-		<p class="arc_show">后盾网，有实力，做后盾！</p>
-		<!-- 轮播区域 -->
-		<div id="foucs_photo">
-			<div class="foucs_photo_l">
-				<img src="http://localhost/blog/Blog/Index/View/Public/images/zs1.jpg" alt="" />
-				<img src="http://localhost/blog/Blog/Index/View/Public/images/zs2.jpg" alt="" />
-				<img src="http://localhost/blog/Blog/Index/View/Public/images/zs3.jpg" alt="" />
-				<img src="http://localhost/blog/Blog/Index/View/Public/images/zs4.gif" alt="" />
-			</div>
+	<!-- 头部结束 -->
 
-		</div>
-		<!-- 轮播区域结束 -->
-		<p class="arc_show">博文</p>
-		<?php foreach ($articles as $k=>$v){?>
-		<div class="arc_left">
-			<div class="arc_left_date">
-				<p></p>
-				<dl>
-					<dd><?php echo date('Y',$v['time']);?></dd>
-					<dt><?php echo date('m-d',$v['time']);?></dt>
-				</dl>
-			</div>
-			<div class="arc_left_content">
-				<a href="" class="arc_tittle"><?php echo $v['title'];?></a>
-				<a href="<?php echo U('Index/Article/index');?>/aid/<?php echo $v['aid'];?>"><img src="http://localhost/blog/<?php echo $v['thumb'];?>" alt="缩略图" /></a>
-				<div class="arc_des"><?php echo $v['suminfo'];?></div>
-				<a href="<?php echo U('Index/Article/index');?>/aid/<?php echo $v['aid'];?>" class="arc_more">阅读全文>></a>
-			</div>
-		</div>
-		<?php }?>
+	<!-- 发布内容区域 -->
+	<div id="arc">
+		<!-- 左侧区域 -->
+		<div class="arc_left_box_list">
+			<ul class="arcticle_list">
+				<li class="category">文章列表</li>
+				        <?php
+        //初始化
+        $hd['list']['n'] = array(
+            'first' => false,
+            'last'  => false,
+            'total' => 0,
+            'index' => 0
+        );
+        if (empty($articles)) {
+            echo '';
+        } else {
+            $listId = 0;
+            $listShowNum=0;
+            $listNextId=0;
+            foreach ($articles as $n) {
+                //开始值
+                if ($listId<0) {
+                    $listId++;
+                    continue;
+                }
+                //步长
+                if($listId!=$listNextId){$listId++;continue;}
+                //显示条数
+                if($listShowNum>=100)break;
+                //第几个值
+                $hd['list'][n]['index']++;
+                //第1个值
+                $hd['list'][n]['first']=($listId == 0);
+                //最后一个值
+                $hd['list'][n]['last']= (count($articles)-1 <= $listId);
+                //总数
+                $hd['list'][n]['total']++;
+                //增加数
+                $listId++;
+                $listShowNum++;
+                $listNextId+=1
+                ?>
+				    <?php if($n['istop']==1){ ?>
+				<li><a href="<?php echo U('Index/Article/index');?>/aid/<?php echo $n['aid'];?>" class="istop" ><?php echo $n['title'];?></a><em><?php echo date('Y-m-d',$n['time']);?></em></li>
+				<?php }else{ ?>
+				<li><a href="<?php echo U('Index/Article/index');?>/aid/<?php echo $n['aid'];?>" ><?php echo $n['title'];?></a><em><?php echo date('Y-m-d',$n['time']);?></em></li>
+				<?php } ?>
+				<?php }}?>
 
-		<div class="page">
-			<?php echo $page;?>
+			</ul>
+			<div class="page">
+				<?php echo $page;?>
+			</div>
 		</div>
-	</div>
-	<!-- 左侧区域结束 -->
-	<!-- 右侧区域 -->
-	<?php if(!defined('HDPHP_PATH'))exit;C('SHOW_NOTICE',FALSE);?>
+		<!-- 左侧区域结束 -->
+		<!-- 右侧区域 -->
+
+		<?php if(!defined('HDPHP_PATH'))exit;C('SHOW_NOTICE',FALSE);?>
 <div class="arc_right_box">
     <!-- 关于后盾网 -->
     <div class="right_little_box">
@@ -126,7 +143,7 @@
                 $listShowNum++;
                 $listNextId+=1
                 ?>
-                <li><a href="<?php echo U('Index/Article/category');?>/cid/<?php echo $n['cid'];?>"><?php echo $n['cname'];?></a></li>
+                <li><a href="<?php echo U('Index/Index/category');?>/cid/<?php echo $n['cid'];?>"><?php echo $n['cname'];?></a></li>
             <?php }}?>
         </ul>
     </div>
@@ -287,10 +304,16 @@
     <!-- 结果统计结束 -->
 </div>
 	<!-- 右侧区域结束 -->
-</div>
-<!-- 发布内容区域结束 -->
-<!-- 底部foot区域 -->
-<?php if(!defined('HDPHP_PATH'))exit;C('SHOW_NOTICE',FALSE);?>
+	</div>
+	<!-- 发布内容区域结束 -->
+	<!-- 返回顶部 -->
+	<div>
+		<a href="javascript:void(0)" id="back_top"></a>
+	</div>
+	<!-- 返回顶部结束 -->
+
+	<!-- 底部foot区域 -->
+	<?php if(!defined('HDPHP_PATH'))exit;C('SHOW_NOTICE',FALSE);?>
 <div id="foot_box">
     <div id="foot">
         <p id="foot_l">Copyright © 2013-2013 xiaofan. All rights reserved.</p>
@@ -309,4 +332,4 @@
 <![endif]-->
 </body>
 </html>
-<!-- 底部foot区域结束 -->
+	<!-- 底部foot区域结束 -->

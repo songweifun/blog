@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title>后盾网博客文章列表</title>
+	<link rel="stylesheet" href="__PUBLIC__/css/article_list.css" />
+	<script type="text/javascript" src="__PUBLIC__/js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/index.js"></script>
+	<link rel="stylesheet" href="__PUBLIC__/css/index.css" />
+</head>
+<body>
+	<!-- 头部 -->
+	<include file='__PUBLIC__/head.html'/>
+	<!-- 头部结束 -->
+
+	<!-- 发布内容区域 -->
+	<div id="arc">
+		<!-- 左侧区域 -->
+		<div class="arc_left_box_list">
+			<ul class="arcticle_list">
+				<li class="category">文章列表</li>
+				<list from="$articles" name="$n">
+				<if value="$n['istop'] eq 1">
+				<li><a href="{|U:'Index/Article/index'}/aid/{$n.aid}" class="istop" >{$n.title}</a><em>{$n.time|date:'Y-m-d',@@}</em></li>
+				<else/>
+				<li><a href="{|U:'Index/Article/index'}/aid/{$n.aid}" >{$n.title}</a><em>{$n.time|date:'Y-m-d',@@}</em></li>
+				</if>
+				</list>
+
+			</ul>
+			<div class="page">
+				{$page}
+			</div>
+		</div>
+		<!-- 左侧区域结束 -->
+		<!-- 右侧区域 -->
+
+		<include file='__PUBLIC__/right.html'/>
+	<!-- 右侧区域结束 -->
+	</div>
+	<!-- 发布内容区域结束 -->
+	<!-- 返回顶部 -->
+	<div>
+		<a href="javascript:void(0)" id="back_top"></a>
+	</div>
+	<!-- 返回顶部结束 -->
+
+	<!-- 底部foot区域 -->
+	<include file='__PUBLIC__/foot.html'/>
+	<!-- 底部foot区域结束 -->

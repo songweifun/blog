@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title>后盾网博客</title>
+	<script type="text/javascript" src="__PUBLIC__/js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/index.js"></script>
+	<link rel="stylesheet" href="__PUBLIC__/css/index.css" />
+</head>
+<body>
+	<!-- 头部 -->
+	<include file='__PUBLIC__/head.html'/>
+	<!-- 头部结束 -->
+	<!-- 发布内容区域 -->
+	<div id="arc">
+		<!-- 左侧区域 -->
+		<div class="arc_left_box">
+			<p class="arc_show">
+				博文
+				<b>栏目：<span>{$articles[0].cname}</span></b>
+			</p>
+			<list from="$articles" name="$n">
+				<div class="arc_left">
+					<div class="arc_left_date">
+						<p></p>
+						<dl>
+							<dd>{$n.time|date:'Y',@@}</dd>
+							<dt>{$n.time|date:'m-d',@@}</dt>
+						</dl>
+					</div>
+					<div class="arc_left_content">
+						<a href="" class="arc_tittle">{$n.title}</a>
+						<a href="{|U:'Index/Article/index'}/aid/{$n.aid}"><img src="__ROOT__/{$n.thumb}" alt="缩略图" /></a>
+						<div class="arc_des">{$n.suminfo}</div>
+						<a href="{|U:'Index/Article/index'}/aid/{$n.aid}" class="arc_more">阅读全文>></a>
+					</div>
+				</div>
+			</list>
+
+
+		<div class="page">
+			{$page}
+		</div>
+		</div>
+		<!-- 左侧区域结束 -->
+		<!-- 右侧区域 -->
+		<include file='__PUBLIC__/right.html'/>
+		<!-- 右侧区域结束 -->
+	</div>
+	<!-- 发布内容区域结束 -->
+	<!-- 返回顶部 -->
+	<div>
+		<a href="javascript:void(0)" id="back_top"></a>
+	</div>
+	<!-- 返回顶部结束 -->
+
+	<!-- 底部foot区域 -->
+	<include file='__PUBLIC__/foot.html'/>
+	<!-- 底部foot区域结束 -->

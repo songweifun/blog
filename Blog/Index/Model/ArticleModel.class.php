@@ -28,7 +28,7 @@ class ArticleModel extends viewModel{
      */
     public function getCategorys($limit,$where)
     {
-        return $this->where($where)->limit($limit)->select();
+        return $this->where($where)->order('istop desc,time desc')->limit($limit)->select();
     }
 
     /**

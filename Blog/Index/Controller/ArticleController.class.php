@@ -4,20 +4,23 @@
  * 文章控制器
  * Class ArticleController
  */
-class ArticleController extends Controller{
+class ArticleController extends CommonController{
 
     public function index(){
+
     $aid=Q('get.aid',null,array('intval'));
+        M('article')->inc('click',"aid=$aid",1);//点击加1
      $article=K('Article')->getOneArticle($aid);//文章详情
+
      $this->assign('article',$article);
         $db=M('comment');
         $total=$db->where(array('aid'=>$aid))->count();
         $page=new page($total,3);
-        $comments=$db->where(array('aid'=>$aid))->order('time asc')->limit($page->limit())->select();//评论详情
-        $categorys=M('category')->select();//栏目
-        $articles=M('article')->order('time desc')->limit(6)->select();//最新文章
-        $this->assign('articles',$articles);
-        $this->assign('categorys',$categorys);
+        $limit=$page->limit();
+        p($limit);
+        $comments=$db->where(array('aid'=>$aid))->order('time asc')->limit($limit)->select();//评论详情
+        $limitp=substr($limit,0,1);//解决楼层问题
+        $this->assign('limitp',$limitp);
         $this->assign('comments',$comments);
         $this->assign('page',$page->show());
 
@@ -54,14 +57,7 @@ class ArticleController extends Controller{
 
     }
 
-    /**
-     * 栏目详情页
-     * @return array
-     */
-    public function category(){
 
-        $this->display();
-    }
 
     public function getData(){
         $data=array();
